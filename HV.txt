@@ -1,0 +1,18 @@
+   0 df -h
+   1 vi /tmp/file.txt
+   2 chmod g+w /tmp/file.txt
+   3 chmod u-r /tmp/file.txt
+   4 chmod o+x /tmp/file.txt
+   5 chomd /tmp/file.txt 
+   6 ls -l /tmp/file.txt 
+   7 export NAME="Vlad"
+   8 export VAR="Null"
+   9 echo NAME >> /tmp/file.txt
+  10 echo VAR >> /tmp/file.txt 
+  11 nano /tmp/file.txt 
+  12 unset NAME
+  13 unset VAR
+  14 print NAME
+  15 env
+  16 history
+  17 history > HV.txt
